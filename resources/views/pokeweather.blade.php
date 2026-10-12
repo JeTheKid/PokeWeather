@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    <title>Poke-Weather Adventure</title>
+    <title>PokeWeather Adventure</title>
     <style>
         body {
             font-family: 'Press Start 2P', cursive;
@@ -32,7 +32,7 @@
 
     <div class="max-w-2xl w-full text-center mb-10 text-white">
         <h1 class="text-2xl md:text-3xl text-yellow-400 mb-4 [text-shadow:4px_4px_0px_#ca8a04]">
-            POKE-WEATHER!
+            POKEWEATHER!
         </h1>
         <div class="bg-slate-800 border-4 border-dashed border-slate-600 p-4 inline-block">
             <p class="text-[8px] md:text-[10px] leading-loose text-slate-300 uppercase">
