@@ -28,7 +28,7 @@ pipeline {
     }
     post {
         always {
-            echo 'Pipeline Docker Selesai dieksekusi!'
+            echo 'Pipeline Docker telah selesai dieksekusi!'
         }
     }
 }
