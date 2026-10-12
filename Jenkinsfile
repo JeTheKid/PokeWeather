@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        IMAGE_NAME = 'username-dockerhub-mu/nama-app-kamu'
+        IMAGE_NAME = 'JeTheKid/pokeweather-app'
         REGISTRY_CREDENTIALS = 'dockerhub-credentials'
     }
     stages {
@@ -12,7 +12,6 @@ pipeline {
         }
         stage('Build Docker Image') {
             steps {
-                // Di Windows Agent, gunakan bat "docker build ..."
                 bat "docker build -t %IMAGE_NAME%:%BUILD_NUMBER% ."
             }
         }
