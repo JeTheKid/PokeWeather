@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        IMAGE_NAME = 'JeTheKid/pokeweather-app'
+        IMAGE_NAME = 'docker.io/JeTheKid/pokeweather-app'
         REGISTRY_CREDENTIALS = 'dockerhub-credentials'
     }
     stages {
